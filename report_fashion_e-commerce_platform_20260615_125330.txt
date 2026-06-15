@@ -1,0 +1,65 @@
+Requirements Analysis Report
+Project : Fashion E-Commerce Platform
+Generated : 2026-06-15 12:53:30
+================================================================
+
+================================================================
+PROJECT OVERVIEW
+================================================================
+The Fashion E-Commerce Platform is a multi-vendor online marketplace where vendors can sell clothing, accessories, and fashion items to customers across all gender categories and kids. The platform aims to provide a seamless and modern shopping experience for customers, while enabling vendors to manage their products and sales effectively. The platform will be used by three primary user roles: Customer, Vendor, and Admin, each with distinct features and functionalities.
+
+================================================================
+FUNCTIONAL REQUIREMENTS
+================================================================
+1. Customer registration and login with email verification and password recovery
+2. Vendor registration and login with business document verification and admin approval
+3. Admin login with role-based access control and sub-admin account management
+4. Product catalogue with categories, sub-categories, and product attributes
+5. Product visibility rules based on admin approval and stock quantity
+6. Vendor product management with upload, edit, and deletion capabilities
+7. Admin product approval workflow with pending submission queue and rejection reasons
+8. Customer browse and search functionality with filters and sorting options
+9. Cart page with add, update, and remove item capabilities, and coupon application
+10. Favourites/Wishlist page with add, remove, and 'Add to Cart' functionality
+11. Checkout and orders with payment method selection, coupon application, and order status tracking
+12. Coupon management with creation, edit, and deletion capabilities, and usage rules
+13. Admin role details with specific permissions and access control
+
+================================================================
+NON-FUNCTIONAL REQUIREMENTS
+================================================================
+1. Performance: product listing pages must load within 2 seconds for up to 1,000 concurrent users
+2. Security: all passwords stored as hashed values, JWT-based session management, and HTTPS enforced across all pages
+3. Scalability: architecture must support horizontal scaling of application servers and database design must support at least 100,000 product SKUs and 500,000 registered users
+4. Usability: fully responsive design, accessibility compliance with WCAG 2.1 AA, and intuitive navigation
+5. Availability: target uptime of 99.9% excluding scheduled maintenance, with 48 hours advance notice for maintenance
+
+================================================================
+RISKS & MITIGATION
+================================================================
+1. Risk: vendor document verification is manual, which may lead to delays or errors | Likelihood: Medium | Impact: High | Mitigation: implement automated KYC verification in future enhancements
+2. Risk: payment gateway integration issues | Likelihood: Medium | Impact: High | Mitigation: confirm payment gateway details with client before development begins
+3. Risk: cloud provider downtime or outages | Likelihood: Low | Impact: High | Mitigation: ensure cloud provider has a robust uptime guarantee and backup plans in place
+4. Risk: security breaches or data leaks | Likelihood: Medium | Impact: High | Mitigation: implement robust security measures, including encryption, firewalls, and access controls
+
+================================================================
+ASSUMPTIONS
+================================================================
+1. The platform will be hosted on a cloud provider (AWS/Azure/GCP)
+2. All monetary values are in Indian Rupees (INR) by default, with currency configuration possible in future
+3. SMS OTP service and email service (SMTP or API) will be provided/configured by the client
+4. Payment gateway integration (Razorpay/PayU/Stripe) will be confirmed by client before development begins
+5. Vendor document verification is manual by User Management Admin in v1.0, with automated KYC verification as a future enhancement
+
+================================================================
+QUESTIONS FOR CLIENT (Clarifications Needed)
+================================================================
+1. Can you confirm the payment gateway details and integration requirements?
+2. What are the specific brand guidelines (logo, colour palette, typography) for the platform?
+3. How will the client provide/configure the SMS OTP service and email service (SMTP or API)?
+4. Are there any specific security or compliance requirements that need to be met for the platform?
+5. What are the expected traffic and user growth projections for the platform, to ensure adequate scalability and performance?
+
+================================================================
+END OF REPORT
+================================================================

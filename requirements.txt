@@ -1,0 +1,38 @@
+Project Name: Fashion E-Commerce Platform
+
+Overview:
+We want to build an e-commerce platform dedicated only to fashion products — clothing, accessories, footwear, bags, jewellery, and related items. The platform must support Men, Women, Kids (boys and girls), and Unisex categories.
+
+Users and Roles:
+- Customers (shoppers) can register, browse available products, add items to a shopping cart, and save items to a favourites/wishlist page.
+- Vendors can register and upload their fashion products. Uploaded products must go through an admin approval process before they become visible to customers.
+- Admin manages the platform. Admin roles must be split so that specific admins handle specific jobs: product approvals, managing categories, managing coupons, managing user accounts, and viewing reports.
+
+Product Rules:
+- Customers can only see products that have been approved by an admin and are in stock.
+- Out-of-stock products should not appear in browse or search results.
+- Products can have size and colour variants.
+
+Cart:
+- Customers must be able to add products to a cart, update quantities, remove items, and see a running total.
+- A coupon code field should be available in the cart.
+
+Favourites Page:
+- Customers can save products to a favourites list and add items from favourites directly to the cart.
+
+Coupons:
+- Only the admin can create coupons. Coupons apply to the entire order total, not to specific products or specific vendors.
+- Coupons can have an expiry date and a usage limit.
+
+Admin Roles Needed:
+- One super admin with full control.
+- Sub-admins for: product approvals, catalogue management, coupon management, user/vendor management, and reports.
+
+Technology Preferences:
+- No strong preference. Open to recommendations.
+
+Timeline:
+- Not specified yet. Awaiting developer estimates.
+
+Budget:
+- Not disclosed. To be discussed.
