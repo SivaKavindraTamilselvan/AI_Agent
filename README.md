@@ -22,4 +22,8 @@
 <img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/f3cd42c6-b66a-43b7-b60a-9d4f1c7192ea" />
 
 
+- Architecture diagram
+
+<img width="2720" height="3280" alt="image" src="https://github.com/user-attachments/assets/614c3db8-da45-4479-8fb0-df5ec0ac7d2a" />
+
 - The generated AI content is stored in the docs file
